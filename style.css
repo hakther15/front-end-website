@@ -147,6 +147,11 @@ div.paragraph {
   h1.name {
     font-size: 55px;
   }
+
+  h2.title,
+  div.paragraph {
+    text-align: center;
+  }
   h2.body {
     font-size: 35px;
   }
@@ -163,7 +168,7 @@ div.paragraph {
 }
   a.primary-link {
     text-align: center;
-    margin: 0 auto;
+    display: block;
     font-size: 20px;
   }
 
@@ -174,7 +179,8 @@ div.paragraph {
   a.contact-link,
   a.about-link {
     padding: 13px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
+    display: block;
   }
 }
