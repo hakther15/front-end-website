@@ -9,12 +9,19 @@ h2.body {
   font-size: 48px;
 }
 
+
 h1,
 h2,
 h3 {
   text-align: center;
   margin: 0;
 }
+
+img {
+  padding: 30px;
+  margin-top: 25px;
+}
+
 
 h1 {
   font-size: 96px;
@@ -43,9 +50,9 @@ h2.title {
   margin-top: 40px;
 }
 
-img {
-  margin-top: 40px;
-}
+
+
+
 p.main {
   background: var(--secondary-color);
   padding: 20px;
@@ -55,16 +62,22 @@ p.main {
   text-align: center;
 }
 
+
 p {
   text-align: center;
   padding: 30px;
   font-size: 18px;
 }
 
+
+
 div.paragraph {
   font-size: 18px;
   margin: 20px 0px 40px 0px;
+  padding: 10px;
 }
+
+
 
 .navigation-links {
   display: flex;
@@ -86,6 +99,7 @@ div.paragraph {
   color: white;
 }
 
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -95,6 +109,7 @@ div.paragraph {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
 
 .about-link {
   color: var(--primary-color);
@@ -126,4 +141,40 @@ div.paragraph {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1.name {
+    font-size: 55px;
+  }
+  h2.body {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+  .email-link {
+    font-size: 35px;
+}
+  a.primary-link {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  div.paragraph {
+    font-size: 20px;
+  }
+
+  a.contact-link,
+  a.about-link {
+    padding: 13px;
+    font-size: 15px;
+    text-align: center;
+  }
 }
